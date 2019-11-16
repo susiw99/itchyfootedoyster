@@ -1,0 +1,218 @@
+.nav {
+list-style-type: none;
+background-color: #57A773;
+margin: 0;
+padding: 0;
+overflow: hidden;
+border: 2px solid #EFCA08;
+
+position: fixed;
+width: 100%;
+}
+
+.navlist {
+float: left;
+display: block;
+}
+
+.navlink {
+padding: 3 8;
+color: #ad2b00;
+text-decoration: none;	
+font-size: 20px;
+
+}
+
+.navlink:hover {
+color: #EFCA08;
+text-shadow: 1px 1px 2px black; 
+}
+			
+
+h1 {
+color: #ad2b00;
+text-align: center;	
+font-family: 'Sofia', cursive;
+text-shadow: 1px 1px 2px white; 
+border: 10px solid #57A773;
+border-radius: 20px;
+border-style: ridge;
+padding: 5px 5px;	
+background-color: #EFCA08;
+font-size: 45px;
+}
+
+body {
+margin: 0;
+background: #57A773;
+}
+
+.hero {
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 0 auto;
+	background-image: url(fatmonk2.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+.buttons {
+padding: 10 15 5 15;
+
+color: #EFCA08;
+text-shadow: 1px 1px 2px black; 
+font-size: 20px;
+text-decoration: none;
+margin: 10px;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+
+.btn {
+padding: 10 15 5 15;
+border: 3px solid black;
+border-radius: 10px;
+color: #EFCA08;
+text-shadow: 1px 1px 2px black; 
+font-size: 20px;
+text-decoration: none;
+margin: 10px;
+background-color: #57A773;
+font-family: 'Special Elite', cursive;
+	align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.btn:hover {
+color: #754668;
+	text-shadow: 1px 2px 2px #EFCA08; 
+}
+
+.america {
+padding: 10 15 5 15;
+border: 3px solid black;
+border-radius: 10px;
+color: #754668;
+font-size: 20px;
+text-decoration: none;
+margin: 10px;
+background-color: #EFCA08;
+font-family: 'Special Elite', cursive;
+	text-shadow: 1px 1px 1px white; 
+}
+
+.america:hover {
+color: #57A773;
+text-shadow: 1px 1px 2px white; 
+}
+
+
+.australia {
+margin-left: 29%;
+margin-right: 29%;
+padding: 10 5;
+}
+
+
+.column {
+  float: left;
+  width: 24%;
+  padding: 1px;
+	margin-left: auto;
+	margin-right: auto;
+border-top: 5px solid #ad2b00;
+border-bottom: 5px solid #ad2b00;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#australiamap {
+background: url(australiamapfaves.png);
+background-position: center center;
+background-attachment: fixed;
+}
+
+#people {
+margin: auto;
+width: 60%;
+padding: 30px 20px;
+font-family: 'Amatic SC', cursive;
+border: 10px solid #57A773;
+border-radius: 20px;
+border-style: ridge;
+background-color: #EFCA08;
+}
+
+
+.name {
+font-size: 1.5em;
+text-shadow: 1px 1px 2px white; 
+color: 
+}
+
+
+.story {
+margin: 40 auto;
+width: 60%;
+padding: 20px 30px;
+font-family: 'Amatic SC', cursive;
+border: 10px solid #57A773;
+border-radius: 20px;
+border-style: ridge;	
+background-color: #EFCA08;
+list-style-image: url(heart.png);
+}
+
+a {
+text-decoration: none;
+display: inline-block;
+text-align: center;
+}
+
+a:hover {
+text-shadow: 1px 1px 2px white; 
+}
+
+.center {
+text-align: center;
+font-family: 'Special Elite', cursive;
+font-size: 30px;
+text-shadow: 1px 1px 2px white; 
+}
+
+img.left {
+margin: 15px 15px;
+float: left;
+border: 5px solid #57A773;
+	padding: 1px;
+}
+
+img.right {
+float: right;
+margin: 15px 15px;
+border: 3px solid #57A773;
+padding: 1px;
+}
+
+.location {
+text-align: center;
+font-size: 20px;
+color: #ad2b00;
+}
+	
+

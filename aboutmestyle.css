@@ -1,0 +1,106 @@
+body {
+margin: 0;
+}
+
+
+.nav {
+list-style-type: none;
+background-color: #57A773;
+margin: 0;
+padding: 0;
+overflow: hidden;
+border: 2px solid #EFCA08;
+position: fixed;
+width: 100%;
+}
+
+.navlist {
+float: left;
+display: block;
+}
+
+.navlink {
+padding: 3 8;
+color: rgb(23, 11, 80);
+text-decoration: none;	
+font-size: 20px;
+
+}
+
+.navlink:hover {
+color: #EFCA08;
+text-shadow: 1px 1px 2px black; 
+}
+
+.hero {
+width: 100vw;
+height: 97vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+background-image: url(susionelerock.jpeg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+
+.hero-inner {
+background-color: rgba(87,167,115, 0.9);
+border: 2px solid #EFCA08;
+border-radius: 20%;
+color: rgb(23, 11, 80);
+width: 30%;
+margin: auto 200px auto 600px;
+
+}
+
+h1{
+font-size: 2em;
+text-shadow: 1px 1px 2px white;
+text-align: center;
+}
+
+h2, h3{
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 3px;
+}
+
+
+
+.hero3 {
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+background-image: url(rutalakekandy.jpeg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+
+.hero-inner3 {
+background-color: rgba(87,167,115, 0.9);
+color: rgb(23, 11, 80);
+width: 30%;
+margin: auto 600px auto 200px; 
+border: 2px solid #EFCA08;
+border-radius: 20%;
+}
+
+.line {
+background-color: rgb(87,167,115);
+border: 2px solid #EFCA08;
+padding: 0px 0px;
+
+}
+

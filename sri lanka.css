@@ -1,0 +1,150 @@
+
+.nav {
+list-style-type: none;
+background-color: #57A773;
+margin: 0;
+padding: 0;
+overflow: hidden;
+border: 2px solid #EFCA08;
+position: fixed;
+width: 100%;
+}
+
+.navlist {
+float: left;
+display: block;
+}
+
+.navlink {
+padding: 3 8;
+color: #ad2b00;
+text-decoration: none;	
+font-size: 20px;
+}
+
+.navlink:hover {
+color: #EFCA08;
+text-shadow: 1px 1px 2px black; 
+}
+
+* {
+box-sizing: border-box;
+}
+
+
+
+body {
+margin: 0;
+background-image: url(srilankaflag2.png);
+width: 100%;
+height: 100%
+border-bottom: border: 10px solid #57A773;
+}
+
+
+.title {
+color: #ad2b00;
+text-align: center;	
+font-family: 'Sofia', cursive;
+text-shadow: 1px 1px 2px white; 
+border: 10px solid #57A773;
+border-radius: 20px;
+border-style: ridge;
+background-color: #EFCA08;
+margin-left: 35%;
+margin-right: 35%;
+margin-top: 20px;
+padding: 5 5;
+font-size: 1.5em;
+}
+
+img {
+width: 32%;
+height: 300px;
+float: left;
+margin: 0.65%;
+border: 5px solid #EFCA08;
+border-radius: 10%;
+border-style: ridge;
+padding: 1px;
+display: block;
+}
+
+
+
+.questions {
+text-align: center;
+font-size: 35px;
+}
+
+
+
+.flip-card {
+background-color: transparent;
+width: 23.7%;
+height: 24%;
+border: 10px solid #e68612;
+border-radius: 20px;
+border-style: ridge;
+background-color: #57A773;
+float: left;
+text-align: center;
+perspective: 1000px;
+margin: 0.6%;
+
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 90%;
+  height: 80%;
+	background-color: #e68612;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+	margin: 12px 12px;
+	color: #EFCA08;
+	border: 2px solid #ad2b00;
+
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front {
+	text-shadow: 1px 1px 2px black; 
+	font-size: 1.1em;	
+}
+
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.flip-card-back {
+  background-color: #EFCA08;
+	color: #ad2b00;
+  transform: rotateY(180deg);
+	font-size: 0.8em;
+	text-align: center;
+
+}
+
+#small {
+font-size: 1.4em}
+
+
+
+green like nav bar: #57A773
+gold/yellow: #EFCA08
+burgundy: #ad2b00
+aubergine: #754668
+orange: #e68612
+

@@ -1,0 +1,256 @@
+
+.nav {
+list-style-type: none;
+background-color: #57A773;
+margin: 0;
+padding: 0;
+overflow: hidden;
+border: 2px solid #EFCA08;
+position: fixed;
+width: 100%;
+}
+
+.navlist {
+float: left;
+display: block;
+}
+
+.navlink {
+padding: 3 8;
+color: #ad2b00;
+text-decoration: none;	
+font-size: 20px;
+}
+
+.navlink:hover {
+color: #EFCA08;
+text-shadow: 1px 1px 2px black; 
+}
+
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+}
+
+
+.hero {
+width: 100%;
+height: 100%;
+display: flex;
+text-align: center;
+	background-image: url(https://thebambootraveler.com/wp-content/uploads/2019/07/Bagan-Itinerary-3-108982111-1024x684.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+
+.title {
+position: sticky;
+top: 20px;
+display: flex;
+color: #ad2b00;
+text-align: center;	
+font-family: 'Sofia', cursive;
+text-shadow: 1px 1px 2px white; 
+border: 10px solid #57A773;
+border-radius: 20px;
+border-style: ridge;
+background-color: #EFCA08;
+margin-left: 3%;
+height: 200px;
+margin-top: 8%;
+font-size: 3em;
+}
+
+.hero2 {
+width: 100vw;
+height: 100vh;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+background-image: url(bridgepeople.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+
+.title2 {
+position: sticky;
+top: 20px;
+color: #ad2b00;
+text-align: center;	
+font-family: 'Sofia', cursive;
+text-shadow: 1px 1px 2px white; 
+border: 10px solid #57A773;
+border-radius: 20px;
+border-style: ridge;
+background-color: #EFCA08;
+margin-right: auto;
+margin-left: auto;
+margin-top: 8%;
+height: 100px;
+font-size: 1.5em;
+padding: 5px;}
+
+.hero3 {
+width: 100vw;
+height: 100vh;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+background-image: url(hike.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+
+
+.title3 {
+position: sticky;
+top: 20px;
+color: #ad2b00;
+text-align: center;	
+font-family: 'Sofia', cursive;
+text-shadow: 1px 1px 2px white; 
+border: 10px solid #57A773;
+border-radius: 20px;
+border-style: ridge;
+background-color: #EFCA08;
+margin-left: 80%;
+margin-top: 8%;
+height: 100px;
+font-size: 1.5em;
+padding: 5px;}
+
+
+.hero4 {
+width: 100vw;
+height: 100vh;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+background-image: url(sofa.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+
+
+.title4 {
+position: sticky;
+top: 20px;
+color: #ad2b00;
+text-align: center;	
+font-family: 'Sofia', cursive;
+text-shadow: 1px 1px 2px white; 
+border: 10px solid #57A773;
+border-radius: 20px;
+border-style: ridge;
+background-color: #EFCA08;
+margin-left: 80%;
+margin-top: 8%;
+height: 100px;
+font-size: 1.5em;
+padding: 5px;}
+
+
+
+
+
+.hero5 {
+width: 100%;
+height: 100%;
+display: flex;
+margin: auto;
+background-image: url(monklake.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+
+.title5 {
+position: sticky;
+top: 20px;
+color: #ad2b00;
+text-align: center;	
+font-family: 'Sofia', cursive;
+text-shadow: 1px 1px 2px white; 
+border: 10px solid #57A773;
+border-radius: 20px;
+border-style: ridge;
+background-color: #EFCA08;
+margin-left: 4%;
+margin-top: 8%;
+height: 100px;
+font-size: 1.5em;
+padding: 5px;}
+
+
+.hero6 {
+height: 100%;
+width: 100%;
+display: flex;
+margin: auto;
+background-image: url(feet.jpg);
+float: left;
+background-attachment: fixed;
+background-repeat: no-repeat;
+overflow: hidden;
+background-position: center;
+background-color:  ##ad2b00;
+}
+
+
+.title6 {
+position: sticky;
+top: 10px;
+color: #ad2b00;
+text-align: center;	
+font-family: 'Sofia', cursive;
+text-shadow: 1px 1px 2px white; 
+border: 10px solid #57A773;
+border-radius: 20px;
+border-style: ridge;
+background-color: #EFCA08;
+margin-left: 1%;
+margin-top: 10%;
+height: 100px;
+font-size: 1.5em;
+padding: 5px;
+}
+
+.title7 {
+position: sticky;
+top: 10px;
+color: #ad2b00;
+text-align: center;	
+font-family: 'Sofia', cursive;
+text-shadow: 1px 1px 2px white; 
+border: 10px solid #57A773;
+border-radius: 20px;
+border-style: ridge;
+background-color: #EFCA08;
+margin-left: 71.5%;
+margin-top: 10%;
+height: 100px;
+font-size: 1.5em;
+padding: 5px;
+}
+
+
+.line {
+background-color: rgb(87,167,115);
+border: 5px solid #EFCA08;
+padding: 0px 0px;
+}
+
+
